@@ -98,6 +98,17 @@ competencies:
     - PostgreSQL
     - MongoDB
 -
+  type: Cloud Infrastructure
+  items:
+    - Docker
+    - Kubernetes (basic)
+    - Terraform
+    - DNS
+    - nginx
+    - ACME / Let's Encrypt
+    - "AWS: EC2, EBS, ELB, AppSync, Lambda, ACM, IAM, S3, CloudFront"
+    - "GCP: GKE, GCS, Firebase"
+-
   type: High-level Tooling
   items:
     - OpenGL
