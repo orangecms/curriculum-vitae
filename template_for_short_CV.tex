@@ -74,4 +74,16 @@ $workshop.place$.
 $workshop.date$.\\[.25cm]
 $endfor$
 
+\section{competencies}
+$for(competencies)$
+\subsection{$competencies.type$}
+$if(competencies.items)$
+\begin{itemize}
+$for(competencies.items)$
+\item $competencies.items$
+$endfor$
+\end{itemize}
+$endif$
+$endfor$
+
 \end{document}

@@ -85,6 +85,7 @@ competencies:
     - Ruby (basic)
 -
   type: Frameworks and Stacks
+  items:
     - LAMP
     - Meteor
     - Ruby on Rails (basic)
@@ -98,6 +99,7 @@ competencies:
     - MongoDB
 -
   type: High-level Tooling
+  items:
     - OpenGL
     - Jupyter Notebook
     - SAGE for Math
