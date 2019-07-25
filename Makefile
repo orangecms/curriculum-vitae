@@ -1,14 +1,9 @@
-SHELL := /bin/zsh
-
-all: validate_yaml long_CV.pdf short_CV.pdf
+all: validate_yaml short_CV.pdf
 
 validate_yaml:
 	@python -c 'import yaml,sys;yaml.safe_load(sys.stdin)' < curriculum_vitae.yaml
 
 %_CV.pdf: %_CV.tex
-	xelatex $*_CV
-	biber $*_CV
-	xelatex $*_CV
 	xelatex $*_CV
 
 vc.tex: curriculum_vitae.yaml
@@ -33,4 +28,3 @@ yaml_CV.md: curriculum_vitae.yaml
 
 clean:
 	rm -f *CV.aux *CV.bcf *CV.log *CV.out *CV.run.xml *CV.pdf short_CV.tex long_CV.tex *CV.bbl *CV.blg *yaml_CV.md
-
