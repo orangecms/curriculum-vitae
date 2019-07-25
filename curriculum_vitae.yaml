@@ -11,17 +11,40 @@ tel: +49-1577-7593609
 
 education:
   -
-    place: Ruhr-Universität Bochum
-    item: BSc IT-Sicherheit / Informationstechnik
-    start: November 2009
-    end: September 2012
-  -
     place: FernUniversität in Hagen
     item: BSc Informatik
     start: November 2012
     end: March 2019
+  -
+    place: Ruhr-Universität Bochum
+    item: BSc IT-Sicherheit / Informationstechnik
+    start: November 2009
+    end: September 2012
 
 jobs:
+  -
+    title: Software Engineer
+    company: img.ly GmbH
+    start: June 2018
+    end: July 2019
+  -
+    title: Software Engineer
+    company: Klarna GmbH
+    start: May 2018
+    end: June 2018
+    details:
+      - backend service development
+      - contribution to RPC implementation documentation
+  -
+    title: Web Developer
+    company: Shop.co GmbH
+    start: September 2015
+    end: May 2018
+    details:
+      - full-stack development using the Meteor framework
+      - frontend implementation with React
+      - RPC architecture and service development
+      - GraphQL API development
   -
     title: Software Developer
     company: Pen Quadrat GmbH
@@ -36,29 +59,6 @@ jobs:
       - GitLab setup & administration
       - XenServer / VM setup & administration
       - Wiki administration & contribution
-  -
-    title: Web Developer
-    company: Shop.co GmbH
-    start: September 2015
-    end: May 2018
-    details:
-      - full-stack development using the Meteor framework
-      - frontend implementation with React
-      - RPC architecture and service development
-      - GraphQL API development
-  -
-    title: Software Engineer
-    company: Klarna GmbH
-    start: May 2018
-    end: June 2018
-    details:
-      - backend service development
-      - contribution to RPC implementation documentation
-  -
-    title: Software Engineer
-    company: img.ly GmbH
-    start: June 2018
-    end: July 2019
 
 talk:
 -
