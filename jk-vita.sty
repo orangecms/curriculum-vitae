@@ -44,9 +44,9 @@
 %% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
 %% and is worth every penny. Any good monospace font will work fine, though.
 %% Consolas or inconsolata are good alternatives.
-\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro} 
-\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Myriad Pro}
-\setmonofont[Mapping=tex-text,Scale=0.9]{Avenir Next Condensed Regular} % Consolas, Pragmata, Lucida Console
+%\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro} 
+\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Source Sans Pro}
+\setmonofont[Mapping=tex-text,Scale=0.9]{NotoMono Nerd Font} % Consolas, Pragmata, Lucida Console
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -123,7 +123,7 @@
 
 
   \begin{minipage}[t]{3.5in}
-    \flushright {\footnotesize \@address} 
+    \flushleft {\footnotesize \@address} 
   \end{minipage}
   \hfill     
   \begin{minipage}[t]{1.7in}
@@ -138,7 +138,7 @@
   \bigskip
 
   %% Name 
-  \noindent{\LARGE\scshape{\@title\ \@name}} {\scriptsize \textsc{\@postnoms}}\\
+  \noindent{\LARGE\scshape{\@title}}\\
   \bigskip
   \bigskip
 
