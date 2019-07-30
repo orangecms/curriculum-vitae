@@ -56,7 +56,7 @@ jobs:
       - GraphQL API development
   -
     title: Software Developer
-    company: Pen Quadrat GmbH
+    company: PenQuadrat GmbH & Co. KG
     start: June 2014
     end: July 2015
     details:
@@ -122,7 +122,7 @@ competencies:
   items:
     - OpenGL
     - Jupyter Notebook
-    - SAGE for Math
+    - SageMath
 -
   type: Languages
   items: German, English, Dutch (intermediate), Swedish (intermediate), Spanish (basic), French (basic), Russian (basic), Latin (reading).
