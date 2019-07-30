@@ -36,6 +36,7 @@ jobs:
       - migration of Artifactory from bare metal to EC2 VM backed by EBS and ELB
       - evaluation of SDK integrations on Android, web and server platforms
       - experimentation with video stream processing stacks on desktop
+      - video processing service architecture design with AMQP / RabbitMQ
   -
     title: Software Engineer
     company: Klarna GmbH
