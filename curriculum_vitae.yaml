@@ -27,6 +27,15 @@ jobs:
     company: img.ly GmbH
     start: June 2018
     end: July 2019
+    details:
+      - PhotoEditor SDK website frontend ( photoeditorsdk.com ) with GatsbyJS
+      - Ruby on Rails backend maintenance
+      - AWS and GCP cloud infrastructure resource management with Terraform
+      - draft rewrite of backend to AWS AppSync with Lambda resolvers
+      - port from legacy LXC on bare metal to Docker on Kubernetes environment
+      - migration of Artifactory from bare metal to EC2 VM backed by EBS and ELB
+      - evaluation of SDK integrations on Android, web and server platforms
+      - experimentation with video stream processing stacks on desktop
   -
     title: Software Engineer
     company: Klarna GmbH
