@@ -126,4 +126,11 @@ competencies:
 -
   type: Languages
   items: German, English, Dutch (intermediate), Swedish (intermediate), Spanish (basic), French (basic), Russian (basic), Latin (reading).
-
+-
+  type: Hobbies
+  items:
+    - firmware hacking
+    - open source software conferences
+    - hackerspaces and CCC events
+    - documentation on free software
+    - OS distribution packaging (Gentoo, Arch Linux, FreeBSD)
