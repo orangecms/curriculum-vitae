@@ -46,7 +46,7 @@ $endfor$
 $for(jobs)$
 \subsection{$jobs.company$}
 $jobs.title$,
-$jobs.start$$if(jobs.end)$ - $jobs.end$$endif$.\\[.25cm]
+$jobs.start$$if(jobs.end)$ - $jobs.end$$endif$\\[.25cm]
 $if(jobs.details)$
 \begin{itemize}
 $for(jobs.details)$
@@ -63,7 +63,7 @@ $for(talk)$
 ``$talk.title$''
 $if(talk.host)$$talk.host$, $endif$
 $talk.place$.
-$talk.date$.\\[.25cm]
+$talk.date$\\[.25cm]
 $endfor$
 
 \subsection{Workshops}
@@ -71,7 +71,7 @@ $for(workshop)$
 ``$workshop.title$''
 $if(workshop.host)$$workshop.host$, $endif$
 $workshop.place$.
-$workshop.date$.\\[.25cm]
+$workshop.date$\\[.25cm]
 $endfor$
 
 \section{competencies}
