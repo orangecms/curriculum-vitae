@@ -37,19 +37,14 @@
 %% color for the links 
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
-\definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
+\definecolor{LighterBlue}{rgb}{0.045,0.422,0.629}
 
 %% Choose fonts for use with xelatex
-%% Minion and Myriad are widely available, from Adobe. 
-%% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
-%% and is worth every penny. Any good monospace font will work fine, though.
-%% Consolas or inconsolata are good alternatives.
-%\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro} 
-\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Source Sans Pro}
-\setmonofont[Mapping=tex-text,Scale=0.9]{NotoMono Nerd Font} % Consolas, Pragmata, Lucida Console
-
-\setmainfont[Mapping=tex-text,Scale=1.2]{Alegreya Sans Light}
-\setmainfont[Mapping=tex-text,Scale=0.9]{Noto Sans Light}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Scale=0.9]{Noto Sans Light}
+\setmonofont[Scale=0.9]{NotoMono Nerd Font} % Consolas, Pragmata, Lucida Console
+\setsansfont[Scale=0.9,Colour=LighterBlue]{Source Sans Pro}
+\newfontfamily\titlefont[Colour=ImperialBlue]{Alegreya}
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -181,7 +176,7 @@
   \global\aftersecfalse}
 
 % Section styling
-\titleformat{\section}[leftmargin]{\raggedleft\sffamily\footnotesize}{}{0pt}{}[\setsubskip]
+\titleformat{\section}[leftmargin]{\raggedleft\titlefont\bfseries\footnotesize}{}{0pt}{}[\setsubskip]
 \titlespacing*{\section}{2cm}{2.5ex}{0.5cm}
 
 % Subsection styling
