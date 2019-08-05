@@ -1,15 +1,12 @@
-all: validate_yaml short_CV.pdf
+all: validate_yaml cv.pdf
 
 validate_yaml:
 	@python -c 'import yaml,sys;yaml.safe_load(sys.stdin)' < curriculum_vitae.yaml
 
-%_CV.pdf: %_CV.tex
-	xelatex $*_CV
-
 vc.tex: curriculum_vitae.yaml
 	sh vc.sh
 
-yaml_CV.md: curriculum_vitae.yaml
+cv.md: curriculum_vitae.yaml
 # Pandoc can't actually read YAML, just YAML blocks in
 # Markdown. So I give it a document that's just a YAML block,
 # while still editing a straight YAML file which has a bunch of advantages.
@@ -17,7 +14,7 @@ yaml_CV.md: curriculum_vitae.yaml
 	cat $< >> $@
 	echo "..." >> $@
 
-%_CV.tex: template_for_%_CV.tex curriculum_vitae.yaml vc.tex
+cv.tex: template.tex curriculum_vitae.yaml vc.tex
 # Pandoc does the initial compilation to tex; we then latex handle the actual bibliography
 # and pdf creation.
 	echo " " | pandoc --metadata-file curriculum_vitae.yaml --template=$< -t latex > $@
@@ -26,5 +23,8 @@ yaml_CV.md: curriculum_vitae.yaml
 # on my own.
 	perl -pi -e 'if ($$_=~/cite\{/) {s/\\_/_/g}; s/(\d{4})-([Pp]resent|\d{4})/$$1--$$2/g' $@;
 
+cv.pdf: cv.tex
+	xelatex cv
+
 clean:
-	rm -f *CV.aux *CV.bcf *CV.log *CV.out *CV.run.xml *CV.pdf short_CV.tex long_CV.tex *CV.bbl *CV.blg *yaml_CV.md
+	rm -f cv.aux cv.bcf cv.log cv.out cv.run.xml cv.pdf cv.tex cv.md
