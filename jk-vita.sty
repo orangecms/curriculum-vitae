@@ -14,6 +14,7 @@
 \usepackage{paralist,ragged2e,datetime}
 \usepackage{hyperref,fancyhdr,enumitem,color}
 \usepackage[centering]{geometry}
+\usepackage{setspace}
 \usepackage{fontawesome}
 \usepackage[compact,small,sf,bf]{titlesec}
 
@@ -85,6 +86,7 @@
 \def\name#1{\def\@name{#1}}
 \def\www#1{\def\@www{#1}}
 \def\email#1{\def\@email{#1}}
+\def\github#1{\def\@github{#1}}
 \def\twitter#1{\def\@twitter{#1}}
 \def\tel#1{\def\@tel{#1}}
 \def\postnoms#1{\def\@postnoms{#1}}
@@ -126,10 +128,12 @@
   \hfill     
   \begin{minipage}[t]{1.7in}
     \flushright
-    {\scriptsize \texttt{\@tel \, \faPhone} } \\
-    {\scriptsize  \texttt{\href{mailto:\@email}{\@email}} \, \faEnvelope} \\
-    {\scriptsize  \texttt{\href{http://\@www}{\@www}} \, \faGlobe} \\
-    {\scriptsize  \texttt{\href{http://twitter.com/\@twitter}{\@twitter}} \, \faTwitter}
+    \setstretch{0.8}{
+      {\scriptsize \texttt{\@tel \, \faPhone} } \\
+      {\scriptsize \texttt{\href{mailto:\@email}{\@email}} \, \faEnvelope} \\
+      {\scriptsize \texttt{\href{https://\@www}{\@www}} \, \faGlobe} \\
+      {\scriptsize \texttt{\href{https://github.com/\@github}{github.com/\@github}} \, \faGithub} \\
+      {\scriptsize \texttt{\href{https://twitter.com/\@twitter}{@\@twitter}} \, \faTwitter}}
   \end{minipage}
 
   \bigskip
