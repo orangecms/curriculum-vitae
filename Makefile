@@ -18,10 +18,6 @@ cv.tex: template.tex curriculum_vitae.yaml vc.tex
 # Pandoc does the initial compilation to tex; we then latex handle the actual bibliography
 # and pdf creation.
 	echo " " | pandoc --metadata-file curriculum_vitae.yaml --template=$< -t latex > $@
-# Citekeys get screwed up by pandoc which escapes the underscores.
-# Years should have en-dashes, which damned if I'm going to do it
-# on my own.
-	perl -pi -e 'if ($$_=~/cite\{/) {s/\\_/_/g}; s/(\d{4})-([Pp]resent|\d{4})/$$1--$$2/g' $@;
 
 cv.pdf: cv.tex
 	xelatex cv
