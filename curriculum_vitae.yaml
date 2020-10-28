@@ -24,6 +24,16 @@ education:
 
 jobs:
   -
+    title: Software Developer
+    company: Fashion Digital GmbH
+    start: October 2019
+    end: November 2020
+    details:
+      - ecommerce web application development
+      - documentation and architecture
+      - Next.js application framework, styled-jsx, React with hooks and Apollo
+      - Kubernetes / Docker infrastructure operation
+  -
     title: Software Engineer
     company: img.ly GmbH
     start: June 2018
@@ -94,14 +104,17 @@ competencies:
     - C/C++ (basic)
     - Python (basic)
     - Ruby (basic)
+    - Golang (basic)
+    - Rust (basic)
 -
   type: Frameworks and Stacks
   items:
     - LAMP
     - Meteor
     - Ruby on Rails (basic)
-    - coreboot
-    - u-root (basic)
+    - Next.js, React, Apollo
+    - coreboot, oreboot, LinuxBoot, u-root
+    - Linux, FreeBSD and Plan 9 system software development
 -
   type: Databases and DBMS
   items:
@@ -131,10 +144,10 @@ competencies:
 -
   type: Hobbies
   items:
-    - firmware hacking
+    - firmware hacking and development
     - open source software conferences
     - hackerspaces and CCC events
-    - demoscene
+    - demoscene events
     - documentation on free software
     - OS distribution packaging (Gentoo, Arch Linux, FreeBSD)
     - microcontrollers and IoT
