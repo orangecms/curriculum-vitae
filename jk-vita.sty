@@ -38,14 +38,14 @@
 %% color for the links 
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
-\definecolor{LighterBlue}{rgb}{0.045,0.422,0.629}
+\definecolor{LighterBlue}{rgb}{0.095,0.422,0.729}
 
 %% Choose fonts for use with xelatex
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Scale=0.9]{Noto Sans Light}
 \setmonofont[Scale=0.9]{NotoMono Nerd Font} % Consolas, Pragmata, Lucida Console
-\setsansfont[Scale=0.9,Colour=LighterBlue]{Source Sans Pro}
-\newfontfamily\titlefont[Colour=ImperialBlue]{Alegreya}
+\setsansfont[Colour=LighterBlue]{Source Sans 3}
+\newfontfamily\titlefont[Colour=ImperialBlue]{Alegreya Sans ExtraBold}
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -184,7 +184,7 @@
 \titlespacing*{\section}{2cm}{2.5ex}{0.5cm}
 
 % Subsection styling
-\titleformat{\subsection}{\subskip\sffamily\itshape}{}{0pt}{}[]
+\titleformat{\subsection}{\subskip\sffamily\bfseries}{}{0pt}{}[]
 \titlespacing*{\subsection}{0pt}{2ex}{1ex}
 
 \raggedbottom

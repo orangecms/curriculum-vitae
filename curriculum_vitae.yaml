@@ -25,6 +25,16 @@ education:
 jobs:
   -
     title: Software Developer
+    company: bevuta IT GmbH
+    start: November 2020
+    end: March 2025
+    details:
+      - Nora Notruf-App (nora-notruf.de), emergency call app for Germany
+      - Next.js application framework, styled-components, React with Redux
+      - React Native for mobile app
+      - NixOS based infrastructure
+  -
+    title: Software Developer
     company: Fashion Digital GmbH
     start: October 2019
     end: November 2020
@@ -99,22 +109,24 @@ competencies:
 -
   type: Programming Languages
   items:
-    - JavaScript
-    - PHP
+    - JavaScript/TypeScript
+    - Rust
+    - Golang (medium)
     - C/C++ (basic)
+    - Assembly (some x86 and Arm, more RISC-V)
+    - PHP (long ago)
     - Python (basic)
     - Ruby (basic)
-    - Golang (basic)
-    - Rust (basic)
 -
   type: Frameworks and Stacks
   items:
-    - LAMP
-    - Meteor
-    - Ruby on Rails (basic)
-    - Next.js, React, Apollo
-    - coreboot, oreboot, LinuxBoot, u-root
+    - web apps with React and Rust/Go WebAssembly
     - Linux, FreeBSD and Plan 9 system software development
+    - coreboot, oreboot, LinuxBoot, u-root
+    - Next.js, React, Apollo
+    - Ruby on Rails (basic)
+    - Meteor
+    - LAMP
 -
   type: Databases and DBMS
   items:
@@ -144,8 +156,8 @@ competencies:
 -
   type: Hobbies
   items:
-    - firmware hacking and development
-    - open source software conferences
+    - firmware and systems development
+    - software engineering conferences
     - hackerspaces and CCC events
     - demoscene events
     - documentation on free software

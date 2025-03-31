@@ -29,4 +29,13 @@ You will need to install some Nerd Fonts. I simply use the full package, but you
 actually just need the fonts specified in `jk-vita.sty`. They may change at
 some point, so better look them up there.
 
+1. download
+    - <https://github.com/ryanoasis/nerd-fonts/releases>
+        - Noto
+        - SourceCode Pro (nope)
+    - <https://fonts.google.com/specimen/Source+Sans+3>
+2. extract to `~/.fonts/`
+3. `fc-cache -fv`
+4. `apt install fonts-alegreya-sans`
+
 In addition, `fontawesome.sty` is used  for the glyphs.
