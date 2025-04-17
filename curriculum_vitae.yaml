@@ -91,20 +91,6 @@ jobs:
       - XenServer / VM setup & administration
       - Wiki administration & contribution
 
-talk:
--
-  title: "Open Source Firmware"
-  host: openSUSE Conference 2019
-  place: Nuremberg
-  date: May 2019
-
-workshop:
--
-  title: A JavaScript GraphQL Stack Built With Apollo
-  host: JavaScript Days
-  place: Berlin
-  date: October 2018
-
 competencies:
 -
   type: Programming Languages
@@ -154,12 +140,16 @@ competencies:
   type: Languages
   items: German, English, Dutch (intermediate), Swedish (intermediate), Spanish (basic), French (basic), Russian (basic), Latin (reading).
 -
-  type: Hobbies
+  type: Hobbies and social commitment
   items:
     - firmware and systems development
+    - since 2023, I am a RISC-V Ambassador (riscv.org/developers/ambassadors-advocates)
     - software engineering conferences
+    - since 2023, I coorganize IWP9, the International Workshop on Plan 9 (iwp9.org)
     - hackerspaces and CCC events
+    - since 2023, I coorganize Hack im Pott (HIP), our local event (hackimpott.de)
+    - giving talks and workshops, see metaspora.org
     - demoscene events
-    - documentation on free software
+    - software documentation
     - OS distribution packaging (Gentoo, Arch Linux, FreeBSD)
     - microcontrollers and IoT
