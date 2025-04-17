@@ -23,4 +23,4 @@ cv.pdf: cv.tex
 	xelatex cv
 
 clean:
-	rm -f cv.aux cv.bcf cv.log cv.out cv.run.xml cv.pdf cv.tex cv.md
+	rm -f cv.aux cv.bcf cv.log cv.out cv.run.xml cv.pdf cv.tex cv.md vc.tex
