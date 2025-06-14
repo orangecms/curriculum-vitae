@@ -29,7 +29,7 @@ jobs:
     start: November 2020
     end: March 2025
     details:
-      - Nora Notruf-App (nora-notruf.de), emergency call app for Germany
+      - nora Notruf-App (nora-notruf.de), emergency call app for Germany
       - Next.js application framework, styled-components, React with Redux
       - React Native for mobile app
       - NixOS based infrastructure
