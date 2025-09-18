@@ -97,9 +97,9 @@ competencies:
   items:
     - JavaScript/TypeScript
     - Rust
-    - Golang (medium)
+    - Golang
     - C/C++ (basic)
-    - Assembly (some x86 and Arm, more RISC-V)
+    - Assembly (Arm, RISC-V, x86)
     - PHP (long ago)
     - Python (basic)
     - Ruby (basic)
@@ -122,12 +122,8 @@ competencies:
 -
   type: Cloud Infrastructure
   items:
-    - Docker
-    - Kubernetes (basic)
+    - Kubernetes, Docker
     - Terraform
-    - DNS
-    - nginx
-    - ACME / Let's Encrypt
     - "AWS: EC2, EBS, ELB, AppSync, Lambda, ACM, IAM, S3, CloudFront"
     - "GCP: GKE, GCS, Firebase"
 -
