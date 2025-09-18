@@ -42,15 +42,15 @@ $education.item$, $education.start$$if(education.end)$ - $education.end$$endif$
 $if(education.info)$ $for(education.info)$ $if(education.info.twopage)$ $education.info.text$ $endif$ $endfor$ $endif$ \\[.25cm]
 $endfor$
 
-\section{jobs}
-$for(jobs)$
-\subsection{$jobs.company$}
-$jobs.title$,
-$jobs.start$$if(jobs.end)$ - $jobs.end$$endif$\\[.25cm]
-$if(jobs.details)$
+\section{professional}
+$for(professional)$
+\subsection{$professional.company$}
+$professional.title$,
+$professional.start$$if(professional.end)$ - $professional.end$$endif$\\[.25cm]
+$if(professional.details)$
 \begin{itemize}
-$for(jobs.details)$
-\item $jobs.details$
+$for(professional.details)$
+\item $professional.details$
 $endfor$
 \end{itemize}
 $endif$
